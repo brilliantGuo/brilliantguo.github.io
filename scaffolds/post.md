@@ -1,5 +1,12 @@
 ---
 title: {{ title }}
+catalog: true
+comments: true
+indexing: true
 date: {{ date }}
-tags:
+subtitle: 
+header-img: ../../../../img/default.jpg
+top: false
+tags: 
+categories: 
 ---
