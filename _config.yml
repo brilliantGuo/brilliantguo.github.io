@@ -8,7 +8,7 @@ subtitle:
   At the bottom of the well, it is destined to see only the sky at the wellhead.
   However, the starting point only affects the process of reaching your peak and does not determine the height you reach.
 author: BrilliantGuo
-language: zh-cn
+language: zh-CN
 timezone:
 
 # URL
@@ -18,22 +18,14 @@ root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
-#Custom Setting Start
-
 # Site settings
-SEOTitle: Hexo-theme-snail
-email: hexo-theme-snail@mail.com
-description: "A hexo theme"
-keyword: "dusign, hexo-theme-snail"
+SEOTitle: brilliantguo-blog
+# email: none
+description: "brilliantGuo's blog"
+keyword: "brilliantguo, blog"
 header-img: img/header_img/home-bg-1-dark.jpg
-signature: true #show signature
-signature-img: img/signature/dusign.png
-
-# SNS settings
-github_username: brilliantGuo
-twitter_username:
-facebook_username:
-zhihu_username:
+signature: false #show signature
+signature-img: 
 
 # Build settings
 anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
@@ -45,17 +37,32 @@ anchorjs: true # if you want to customize anchor. check out line:181 of `post.ht
 ga_track_id: "UA-XXXXXXXX-X" # Format: UA-xxxxxx-xx
 ga_domain: yoursite
 
+#Custom Setting Start
+
+# Nav Settings
+nav:
+  Home: /
+  Archives: /archive
+  Categories: /categories
+  About: /about
+
+# SNS settings
+github_username: brilliantGuo
+twitter_username:
+facebook_username:
+zhihu_username:
+
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Welcome to visit, I'm Dusign!"
-sidebar-avatar: img/ironman-draw.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Welcome to visit, I'm BrilliantGuo!"
+sidebar-avatar: img/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
   - search
   - featured-tags
   - short-about
   - visitor
   - recent-posts
-  - friends-blog
+  # - friends-blog
   - archive
   - category
 
@@ -76,19 +83,18 @@ featured-tags: true # whether or not using Feature-Tags
 featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
 
 ## Friends
+### { title: "Other", href: "#" },
 friends:
-  [
-    { title: "Dusign's Blog", href: "https://blog.csdn.net/d_Nail" },
-    { title: "Dusign's Web", href: "#" },
-    { title: "Dusign's Github", href: "https://github.com/dusign" },
-    { title: "Other", href: "#" },
-  ]
+  []
 
 math:
   enable: true
   engine: mathjax
 
-#Custom Setting End
+## music
+music: false
+
+# Custom Setting End
 
 # Directory
 source_dir: source
@@ -96,7 +102,7 @@ public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
-# photography_dir: photography
+photography_dir: photography
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -108,7 +114,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -179,6 +185,7 @@ share: true
 # Comment
 ## This comment system is gitment
 ## gitment url: https://github.com/imsun/gitment
+## gitalk url: https://github.com/gitalk/gitalk
 comment:
   gitment:
     enable: false
@@ -191,9 +198,6 @@ comment:
   disqus:
     enable: false
     username:
-
-## music
-music: false
 
 # Tip
 tip:
@@ -215,7 +219,7 @@ bg_effects:
     count: 99
   mouse_click:
     enable: false
-    content: '"🌱","just do it","🍀"'
+    content: '"🌱","🍀"'
     color: '"rgb(121,93,179)"
       ,"rgb(76,180,231)"
       ,"rgb(184,90,154)"'
@@ -233,9 +237,3 @@ mouse_control: false
 visitor:
   enable: true
   type:
-
-# Chinese Blog
-chinese_blog:
-  enable: true
-  title: Chinese Blog
-  url: 
