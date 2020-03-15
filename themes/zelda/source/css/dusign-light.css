@@ -608,6 +608,9 @@ footer .copyright a:hover,
 footer .copyright a:focus {
   color: #0085a1;
 }
+footer .copyright .powered-by {
+  font-style: normal;
+}
 .floating-label-form-group {
   font-size: 14px;
   position: relative;
