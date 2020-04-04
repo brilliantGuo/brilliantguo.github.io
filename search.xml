@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>个人博客部署说明</title>
+      <link href="/2020/03/15/hexo-site-build/"/>
+      <url>/2020/03/15/hexo-site-build/</url>
+      
+        <content type="html"><![CDATA[<h2 id="网站所做的改动"><a href="#网站所做的改动" class="headerlink" title="网站所做的改动"></a>网站所做的改动</h2><ul><li>[x] 导航栏 Menu 依顺序排列</li><li>[] 接入 gitalk 评论系统</li><li>[] Gulp 做文件压缩</li><li>[] 检查有没有多余的 CSS、JS 资源</li><li>[] PWA 网站优化</li></ul><h2 id="计划后续做的改动"><a href="#计划后续做的改动" class="headerlink" title="计划后续做的改动"></a>计划后续做的改动</h2><ul><li>[] 用 React 重构个人网站</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> site-build </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
