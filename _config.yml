@@ -187,9 +187,16 @@ share: true
 ## gitment url: https://github.com/imsun/gitment
 ## gitalk url: https://github.com/gitalk/gitalk
 comment:
+  gitalk:
+    enable: true
+    client_id: 0a9e73417984941be377
+    client_secret: 5d6aef968e54c87a88e13c53a31da5359079e466
+    repo: git@github.com:brilliantGuo/brilliantguo.github.io.git
+    owner: brilliantGuo
+    distraction_free_mode: false
   gitment:
     enable: false
-    owner:
+    owner: brilliantGuo
     repo:
     client_id:
     client_secret:

@@ -74,6 +74,13 @@ layout: layout
                 <% } %>
                 <!-- gitment end -->
 
+                <!-- gitalk start -->
+                <% if(config['comment']['gitalk']['enable']){ %>
+                <hr>
+                <%- partial('_partial/gitalk') %>
+                <% } %>
+                <!-- gitalk end -->
+
                 <!-- 来必力City版安装代码 -->
                 <% if(config['comment']['livere']['enable']){ %>
                 <hr>
