@@ -293,6 +293,29 @@
                 
                 <!-- gitment end -->
 
+                <!-- gitalk start -->
+                
+                <hr>
+                <div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+        clientID: "0a9e73417984941be377",
+        clientSecret: "5d6aef968e54c87a88e13c53a31da5359079e466",
+        repo: "git@github.com:brilliantGuo/brilliantguo.github.io.git",
+        owner: "brilliantGuo",
+        admin: ["brilliantGuo"],
+        id: location.pathname,
+        distractionFreeMode: "false"
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+
+                
+                <!-- gitalk end -->
+
                 <!-- 来必力City版安装代码 -->
                 
                 <!-- City版安装代码已完成 -->
