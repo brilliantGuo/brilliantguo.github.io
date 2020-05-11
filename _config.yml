@@ -168,7 +168,7 @@ sitemap:
   path: sitemap.xml
 ## Baidusitemap
 baidusitemap:
-path: baidusitemap.xml
+  path: baidusitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -191,7 +191,7 @@ comment:
     enable: true
     client_id: 0a9e73417984941be377
     client_secret: 5d6aef968e54c87a88e13c53a31da5359079e466
-    repo: git@github.com:brilliantGuo/brilliantguo.github.io.git
+    repo: brilliantguo.github.io
     owner: brilliantGuo
     distraction_free_mode: false
   gitment:
