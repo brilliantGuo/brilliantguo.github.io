@@ -17,7 +17,7 @@ categories:
 
 打开 [Github](https://github.com/)，在 Repositories 下点击 New 按钮创建自己的博客仓库。这里的仓库名需要填写成 `<你的 GitHub 用户名>.github.io` ，方便后面自己的站点能通过 GitHub 直接访问，而无须部署到自己的服务器。
 
-![Github 创建仓库页面](https://raw.githubusercontent.com/brilliantGuo/picgo/master/img20200511201552.png)
+![Github 创建仓库页面](https://cdn.jsdelivr.net/gh/brilliantGuo/picgo/img20200511201552.png)
 
 这里我已经创建了自己的仓库了，所以会提示报错。
 
@@ -33,7 +33,7 @@ npm install hexo-cli -g
 
 安装完成后，可以通过 `hexo init <folder>` 命令创建自己的博客了。但是我们先不用急着创建，因为 Hexo 本身的主题比较简陋，且 Hexo 每个主题本身就是一个博客网站，所以我们可以先访问 [Hexo 主题](https://hexo.io/themes/) 页面，选择自己一个喜欢的主题，找到这个主题的仓库，然后运行 `git clone <博客 GitHub 地址>` 命令，把这个仓库保存到本地。以 [Hexo Next](https://github.com/next-theme/hexo-theme-next) 主题为例，在这里找到这个仓库的 git 地址：
 
-![Next 主题的仓库地址](https://raw.githubusercontent.com/brilliantGuo/picgo/master/img20200511215550.png)
+![Next 主题的仓库地址](https://cdn.jsdelivr.net/gh/brilliantGuo/picgo/img20200511215550.png)
 
 把仓库 clone 到本地后，进入到文件夹，在终端下依次运行下面命令，将这个仓库指向我们刚才申请的 GitHub 博客地址：
 
@@ -142,7 +142,7 @@ deploy:
 
 ## 接入 Gitalk 评论系统
 
-待说明
+待补充
 
 ## 相关主题博客，供参考
 
