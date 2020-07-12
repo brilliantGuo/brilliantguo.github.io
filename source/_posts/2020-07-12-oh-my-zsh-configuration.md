@@ -13,7 +13,11 @@ categories:
 
 本篇文章在 [iTerm2 + Oh My Zsh 打造舒适终端体验](https://github.com/sirius1024/iterm2-with-oh-my-zsh/blob/master/README.md) 上面加以补充，记录自己 iTerm2 的配置过程。
 
-iTerm2 安装过程可以参考 [iTerm2 + Oh My Zsh 打造舒适终端体验](https://segmentfault.com/a/1190000014992947) ，安装完就可以使用 Agnoster 的炫酷主题了。
+iTerm2 安装过程可以参考上面这篇教程 ，安装完就可以使用 Agnoster 的炫酷主题了。这个是我按照教程配置后的效果：
+
+![配置后的样例](https://cdn.jsdelivr.net/gh/brilliantGuo/picgo/imgtheme-host-before.png)
+
+但是总感觉还有些不太美观，于是就在上面的配置进行改动，并把自己改造的过程记录下来，
 
 ## 修改主题配置
 
