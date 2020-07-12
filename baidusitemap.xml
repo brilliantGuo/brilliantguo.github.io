@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://brilliantguo.github.io/2020/03/15/hexo-site-build/</loc>
-    <lastmod>2020-05-24</lastmod>
+    <lastmod>2020-07-12</lastmod>
+  </url>  <url>
+    <loc>https://brilliantguo.github.io/2020/07/12/oh-my-zsh-configuration/</loc>
+    <lastmod>2020-07-12</lastmod>
   </url>
 </urlset>
