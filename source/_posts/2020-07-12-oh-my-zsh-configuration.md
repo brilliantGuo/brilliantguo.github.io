@@ -17,7 +17,7 @@ iTerm2 安装过程可以参考上面这篇教程 ，安装完就可以使用 Ag
 
 ![配置后的样例](https://cdn.jsdelivr.net/gh/brilliantGuo/picgo/imgtheme-host-before.png)
 
-但是总感觉还有些不太美观，于是就在上面的配置进行改动，并把自己改造的过程记录下来，
+但是总感觉还有些不太美观，就在上面的配置进行了些改动，于是就有了这篇文章。
 
 ## 修改主题配置
 
