@@ -117,8 +117,8 @@
                         
                             <div class="blank_box"></div>
                             <span class="meta">
-                                Words <span class="post-count">750</span> and
-                                Reading Time <span class="post-count">2</span> Minutes
+                                Words <span class="post-count">796</span> and
+                                Reading Time <span class="post-count">3</span> Minutes
                             </span>
                             <div class="blank_box"></div>
                             <!-- 不蒜子统计 start -->
@@ -244,7 +244,9 @@
                 post-container">
 
                 <p>本篇文章在 <a href="https://github.com/sirius1024/iterm2-with-oh-my-zsh/blob/master/README.md" target="_blank" rel="noopener">iTerm2 + Oh My Zsh 打造舒适终端体验</a> 上面加以补充，记录自己 iTerm2 的配置过程。</p>
-<p>iTerm2 安装过程可以参考 <a href="https://segmentfault.com/a/1190000014992947" target="_blank" rel="noopener">iTerm2 + Oh My Zsh 打造舒适终端体验</a> ，安装完就可以使用 Agnoster 的炫酷主题了。</p>
+<p>iTerm2 安装过程可以参考上面这篇教程 ，安装完就可以使用 Agnoster 的炫酷主题了。这个是我按照教程配置后的效果：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/brilliantGuo/picgo/imgtheme-host-before.png" alt="配置后的样例"></p>
+<p>但是总感觉还有些不太美观，于是就在上面的配置进行改动，并把自己改造的过程记录下来，</p>
 <h2 id="修改主题配置"><a href="#修改主题配置" class="headerlink" title="修改主题配置"></a>修改主题配置</h2><h3 id="隐藏用户名和主机名"><a href="#隐藏用户名和主机名" class="headerlink" title="隐藏用户名和主机名"></a>隐藏用户名和主机名</h3><p>Agnoster 主题下，iTerm2 每行开头都会有 <code>[user]@[hostname]</code> 的提示，比较占位子。很多时候我们是在本地操作的，这点信息可以忽略，因此我们动手修改一下，把这段代码删掉。</p>
 <p>在编辑主题的时候，我们最好拷贝一份主题，在新的主题上做修改。一方面避免 iTerm2 更新把之前修改过的主题覆盖掉，另一方面在配置错误时能参考原来的配置进行回滚：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/.oh-my-zsh/themes</span><br><span class="line"><span class="comment"># 拷贝 agnoster 主题为 my-agnoster 新主题</span></span><br><span class="line">cp agnoster.zsh-theme my-agnoster.zsh-theme</span><br></pre></td></tr></table></figure>
